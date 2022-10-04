@@ -2,8 +2,6 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { Provider } from 'react-redux';
 import { store } from "../app/store";
 import { InputProps, NoteFormInput } from "../features/notes/components/forms/NoteFormInput";
-import { NoteTableRow } from "../features/notes/components/tables/NoteTableRow";
-import { initialNotesList, Note } from "../features/notes/Note";
 
 
 export default {
