@@ -3,8 +3,6 @@ import { Provider } from 'react-redux';
 import { store } from "../app/store";
 import { CategorySelect, CategorySelectProps } from "../features/notes/components/forms/CategorySelect";
 
-
-
 export default {
   title: "Form-category-select",
   component: CategorySelect,
