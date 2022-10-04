@@ -21,10 +21,6 @@ export default {
 } as ComponentMeta<typeof NoteButton>
 
 const Template: ComponentStory<typeof NoteButton> = (args: ButtonProps) => {
-  const dispatch = useDispatch();
-    React.useEffect(() => {
-        dispatch(args.action(args.noteId))
-    })
   return <NoteButton {...args} />
 }
 
