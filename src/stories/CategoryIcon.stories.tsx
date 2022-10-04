@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { CategoryIcon } from "../features/notes/components/CategoryIcon"
+import { CategoryIcon } from "../features/notes/components/buttons/CategoryIcon"
 import { Category, categoriesList } from "../features/notes/Note";
 
 export default {

@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { NoteButton, ButtonProps } from "../features/notes/components/NoteButton"
-import { iconTitles } from "../features/notes/components/ButtonIcon";
+import { NoteButton, ButtonProps } from "../features/notes/components/buttons/NoteButton"
+import { iconTitles } from "../features/notes/components/buttons/ButtonIcon";
 import { Provider, useDispatch } from 'react-redux';
 import {
   switchArchiveStatus, remove, initiateEditNote,

@@ -109,7 +109,7 @@ export const categoriesList = [
   { categoryName: "Random Thought", categoryIcon: "fa-solid fa-lightbulb" }
 ]
 
-let initialNotesList:Note[] = [
+export let initialNotesList:Note[] = [
   {id: 1, name: "Buy Books", createDate: parseDateToMyDate(new Date()), category: categoriesList[0], 
       content: "Do this in 19 11 2022 and in 16-10-2022",  archivedStatus: false, editStatus: false},
   {id: 2, name: "Buy More Books", createDate: parseDateToMyDate(new Date()), category: categoriesList[1], 

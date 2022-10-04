@@ -1,4 +1,4 @@
-import { Category } from "../Note";
+import { Category } from "../../Note";
 
 export function CategoryIcon(category: Category) {
   return (

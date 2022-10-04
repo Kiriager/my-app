@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { Cell, CellProps } from "../features/notes/components/Cell"
+import { Cell, CellProps } from "../features/notes/components/tables/Cell"
 
 export default {
   title: "Table-cell",

@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { ButtonIcon, IconProps, iconTitles } from "../features/notes/components/ButtonIcon"
+import { ButtonIcon, IconProps, iconTitles } from "../features/notes/components/buttons/ButtonIcon"
 
 export default {
   title: "Button-icon",
